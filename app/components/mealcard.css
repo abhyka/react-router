@@ -1,0 +1,21 @@
+.meal-card {
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.meal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-2);
+}
+
+.meal-card img {
+  width: 100%;
+  height: var(--size-12);
+  object-fit: cover;
+}
+
+.meal-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-2);
+}
