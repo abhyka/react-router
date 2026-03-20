@@ -87,8 +87,8 @@ const resources = [
     ),
   },
   {
-    href: "meal-recipes",
-    text: "Meal Recipes",
+    href: "random",
+    text: "Random Recipe",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

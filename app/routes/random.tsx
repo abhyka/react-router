@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { Route } from "./+types/random";
+import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [

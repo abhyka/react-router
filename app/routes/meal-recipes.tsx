@@ -1,5 +1,5 @@
 import MealCard from "../components/MealCard";
-import { fetchRandomMeals } from "../services/mealApi";
+import { fetchRandomMeals } from "../services/recipeAPI";
 import { Link } from "react-router";
 
 export function shouldRevalidate() {
