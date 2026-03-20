@@ -2,13 +2,6 @@ import { useState } from "react";
 import type { Route } from "./+types/random";
 import { Link } from "react-router";
 
-export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "Random Recipe" },
-    { name: "description", content: "Get a random meal recipe!" },
-  ];
-}
-
 interface Meal {
   idMeal: string;
   strMeal: string;
