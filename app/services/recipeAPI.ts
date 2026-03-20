@@ -40,7 +40,7 @@ export const fetchRandomRecipes = async (count = { limit: 9 }) => {
 export const fetchFavoriteRecipes = async (userId: string) => {
     try {
         const response = await fetch(
-            `${API_BASE_URL}/favourites?sub_id=${import.meta.env.VITE_USER_ID}`,
+            `${API_BASE_URL}/favorites?sub_id=${import.meta.env.VITE_USER_ID}`,
             {
                 headers: {
                     "Content-Type": "application/json",

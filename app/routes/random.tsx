@@ -11,7 +11,7 @@ interface Meal {
   [key: string]: string;
 }
 
-export default function Random() {
+export default function fetchRandomRecipe() {
   const [meal, setMeal] = useState<Meal | null>(null);
   const [loading, setLoading] = useState(false);
 

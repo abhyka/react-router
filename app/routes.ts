@@ -4,4 +4,6 @@ export default [
   index("routes/home.tsx"),
   route("random", "routes/random.tsx"),
   route('meal-recipes', 'routes/meal-recipes.tsx'),
+  route("favorites", "routes/favorites.tsx"),
+  route("favorites-action", "routes/favorites-action.tsx"),
 ] satisfies RouteConfig;
