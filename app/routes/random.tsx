@@ -80,9 +80,9 @@ export default function fetchRandomRecipe() {
                 Ingredients
               </h3>
               <ul className="grid grid-cols-2 gap-1 mb-6">
-                {ingredients.map(({ ingredient, measure }) => (
+                {ingredients.map(({ ingredient, measure }, index) => (
                   <li
-                    key={ingredient}
+                    key={index}
                     className="text-sm text-gray-700 dark:text-gray-300"
                   >
                     <span className="font-medium">{measure}</span> {ingredient}
